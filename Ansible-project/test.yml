@@ -1,6 +1,6 @@
 ---
 - name: My first playbook
-  host: localhost
+  hosts: localhost
 
   task:
         - name: test connectivity
