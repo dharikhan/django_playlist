@@ -6,5 +6,5 @@
         - name: test connectivity
           ping:
         - name: print hello world
-          debug: msg="hello world"
+          debug: msg="hello world Hi Vedh Harale"
 
