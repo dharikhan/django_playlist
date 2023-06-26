@@ -1,2 +1,7 @@
 ---
-  -name: Smaple playbook
+  -name: My First Playbook
+   host: localhost
+
+   task:
+          -name: Test Connectivity of the local hsoy
+          ping:
