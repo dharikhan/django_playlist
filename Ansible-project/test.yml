@@ -2,9 +2,8 @@
 - name: My first playbook
   hosts: localhost
 
-  task:
+  tasks:
         - name: test connectivity
           ping:
         - name: print hello world
           debug: msg="hello world Hi Vedh Harale"
-
