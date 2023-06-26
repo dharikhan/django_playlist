@@ -1,7 +1,7 @@
 ---
-- name: My First Playbook
+- name: My first playbook
   host: localhost
 
   task:
-        - name: Test Connectivity of the local hsoy
+        - name: test connectivity
           ping:
