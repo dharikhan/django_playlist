@@ -4,11 +4,4 @@
 
   tasks:
         - name: install django
-          pip: state:latest
-              name: httpd
-              state: present
-
-        - name: started httpd
-          service: 
-              name: httpd
-              state: started
+          pip:
