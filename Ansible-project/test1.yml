@@ -5,5 +5,5 @@
   tasks:
         - name: Install apache
           yum: 
-        - name: httpd
-          debug: present
+              name: httpd
+              state: present
