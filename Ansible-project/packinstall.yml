@@ -1,0 +1,14 @@
+---
+- name: installing and running apache
+  hosts: localhost
+
+  tasks:
+        - name: install apache
+          apt-get:
+            name: httpd
+            state: present
+
+        - name: start httpd
+          service: 
+            name: httpd
+            state: started
