@@ -1,9 +1,9 @@
 ---
-- name: Installing and Running apache
+- name: Installing and Running django Framework
   hosts: localhost
 
   tasks:
-        - name: Install apache
-          apt-get: 
+        - name: Install django
+          pip: 
               name: httpd
               state: present
