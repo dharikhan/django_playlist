@@ -3,7 +3,12 @@
   hosts: localhost
 
   tasks:
-        - name: Install django
+        - name: install django
           pip: 
               name: httpd
               state: present
+
+        - name: started httpd
+          service: 
+              name: httpd
+              state: started
