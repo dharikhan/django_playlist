@@ -4,4 +4,4 @@
 
   tasks:
         - name: install django
-          pip:
+          pip: state=latest
