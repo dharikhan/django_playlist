@@ -4,7 +4,7 @@
 
   tasks:
         - name: install django
-          pip: 
+          pip: state:latest
               name: httpd
               state: present
 
